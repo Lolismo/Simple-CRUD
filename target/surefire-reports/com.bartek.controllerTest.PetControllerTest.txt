@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: com.bartek.controllerTest.PetControllerTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 11.425 sec <<< FAILURE! - in com.bartek.controllerTest.PetControllerTest
+deletePetRemovingPet(com.bartek.controllerTest.PetControllerTest)  Time elapsed: 0.372 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: is <1>
+     but: was <2>
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at com.bartek.controllerTest.PetControllerTest.deletePetRemovingPet(PetControllerTest.java:225)
+

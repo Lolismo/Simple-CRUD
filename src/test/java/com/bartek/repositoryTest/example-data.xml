@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+
+
+
+<pet pet_id = "1" date_of_birth = "2009-09-12" species="dog" weight_g="5000"
+		name="Kajtek" />
+<pet pet_id="2" date_of_birth="2012-12-1" species="cat" weight_g="2000"
+		name="Puszek" />
+
+
+<visit date_of_visit = "2010-4-12 10:00:00" 
+description ="broken leg surgery" pet_id = "1"/>
+
+<visit date_of_visit = "2010-9-20 10:00:00" 
+description ="supervision" pet_id = "1" />
+
+<visit date_of_visit = "2010-4-12 10:00:00" 
+description ="broken leg surgery" pet_id = "2" />
+
+<visit date_of_visit = "2015-4-12 10:00:00" 
+description ="supervision" pet_id = "1" />
+
+<visit date_of_visit = "2014-2-12 10:00:00" 
+description ="broken leg surgery" pet_id = "1" />
+	
+</dataset>
